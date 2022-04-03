@@ -1,4 +1,5 @@
-# Basic Neural Network Library for Bush School CPJava final project
+# Basic Neural Network Library
+# The Bush School CPJava final project 2022
 
 This is a very basic Java Neural Network library based on the one built by Daniel Shiffman in [this](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh) playlist using the [Efficient Java Matrix Library](https://www.ejml.org) (EJML).
 
@@ -20,25 +21,6 @@ If you want to learn more about Neural Networks check out these YouTube-playlist
 - Generate a NeuralNetwork-object from a JSON-file
 
 ## Getting Started
-
-This section describes how a working copy of this project can be set up on your local machine for testing and development purposes. If you just want to use the library you can skip this part.
-
-### Prerequisites
-[Maven](https://maven.apache.org) has to be installed:
-- [Download Maven](https://maven.apache.org/download.cgi)
-- [Installation guide](https://maven.apache.org/install.html)
-
-### Installing
-```
-mvn install
-```
-All the dependencies specified in pom.xml will be installed.
-
-### Building
-```
-mvn package
-```
-In the directory ```/target``` of the project two jar-files will be generated. One with all the dependencies included and one without.
 
 ## Use the library
 
@@ -109,30 +91,13 @@ More detailed examples can be found below.
 
 ## Download
 
-If you want to use this library you can download [v0.5](https://github.com/kim-marcel/basic_neural_network/releases/download/v0.5/basic_neural_network-v0.5.jar) here or check the release tab of this repository for other versions.
+If you want to use this library you can download [v0.5](https://github.com/drunarayan/basic_neural_network/releases/download/v0.5/basic_neural_network-v0.5.jar) here.
 
 ## Examples
 
-- [XOR solved with Basic Neural Network Library](https://github.com/kim-marcel/xor_with_nn)
-- [Doodle Classification in Processing](https://github.com/kim-marcel/doodle_classifier)
-
-If you want you can add your own projects, that were build with this library, to this list. Please send me a pull request.
-
-## TODO
-
-- implement softmax
-- add more functionality for genetic algorithms (e.g. different merge functions,...)
-- JUnit-tests
-- Javadoc documentation
-- weights and biases should get normalized
-- more examples
-
-If you have any other suggestions on what should be done, feel free to open an issue or add it to this list.
-
-If you want to contribute by implementing any of these features or your own ideas please do so and send me a pull request.
+- TBD
 
 ## Libraries & Tools used in this project
 
 - [EJML](https://www.ejml.org) used for Matrix math
 - [Google Gson](https://github.com/google/gson) library
-- [Maven](https://maven.apache.org) build- and dependency-management
